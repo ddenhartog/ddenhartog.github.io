@@ -1,0 +1,46 @@
+@import 'colors';
+@import 'fonts';
+@import 'sizes';
+
+
+// STYLESHEET
+
+
+// CONTENT
+html {
+  background-color: $color-light;
+  // background-image: url(../images/bg.png);
+  box-sizing: border-box;  // duplication of '*'' in reset.scss?
+  font-size: 16px;  // have hard code
+  height: 100%;
+  text-align: left;
+  width: 100%;
+}
+
+body {
+  color: $color-black;
+  font: $font-weight-normal #{$size-single}/#{$size-small} $fonts;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+div {
+  margin: auto;
+  padding: 0 $size-extra-small;
+  text-align: center;
+  width: $container-width-small;
+}
+
+h1 {
+  font-size: $size-small;
+  line-height: $size-medium;
+}
+
+
+// PRINT
+@media print {
+* {
+  background: transparent !important;
+}
+}

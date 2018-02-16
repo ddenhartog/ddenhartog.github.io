@@ -1,0 +1,28 @@
+{
+  "name": "denhartog",
+  "version": "1.0.0",
+  "description": "Douglas Denhartog",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "",
+    "gulp": "",
+    "gulp-concat": "",
+    "gulp-cssnano": "",
+    "gulp-gzip": "",
+    "gulp-imagemin": "",
+    "gulp-replace": "",
+    "gulp-sass": "",
+    "gulp-uglify": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denhartog/denhartog.github.io.git"
+  },
+  "author": "Douglas Denhartog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denhartog/denhartog.github.io/issues/"
+  },
+  "homepage": "https://www.denhartog.com/"
+}

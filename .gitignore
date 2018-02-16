@@ -1,6 +1,7 @@
 # SEE: https://github.com/github/gitignore
 # FOLDERS
-gulp
+html
+node_modules
 
 # MAC OSX
 # https://github.com/github/gitignore/blob/master/Global/OSX.gitignore

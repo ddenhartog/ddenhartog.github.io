@@ -1,0 +1,77 @@
+// SIZES
+$fractions:(
+  .0625rem  // 1
+  .125rem  // 2
+  .1875rem  // 3
+  .25rem  // 4
+  .3125rem  // 5
+  .375rem  // 6
+  .4375rem  // 7
+  .5rem  // 8
+  .5625rem  // 9
+  .625rem  // 10
+  .6875rem  // 11
+  .75rem  // 12
+  .8125rem  // 13
+  .875rem  // 14
+  .9375rem  // 15
+);
+// used in padding zip()
+$sizes:(
+  .75rem
+  1.5rem
+  3rem
+  4.5rem
+  6rem
+);
+$size-names:(
+  extra-small
+  small
+  medium
+  large
+  extra-large
+);
+// special use cases
+$size-single: 1rem;
+$size-single-half: .5rem;
+// normal use cases
+$size-extra-extra-small: .25rem;
+$size-extra-small: nth($sizes, 1);
+$size-small: nth($sizes, 2);
+$size-medium: nth($sizes, 3);
+$size-large: nth($sizes, 4);
+$size-extra-large: nth($sizes, 5);
+
+
+// HEIGHT SIZES
+$container-height-small: 19.5rem; // 312 px
+$container-height-medium: 39rem;  // 624px
+//$container-height-large: 58.5rem;
+//$container-height-extra-large: 78rem;
+
+
+// WIDTH SIZES
+$container-width-small: 20rem;
+$container-width-medium: 40rem;
+$container-width-large: 60rem;
+$container-width-extra-large: 80rem;
+$container-width-fluid: 100%;
+
+
+// BORDERS
+$border-size: nth($fractions, 2);
+$radius: $size-extra-extra-small;
+$border-radius-none: 0;
+$border-radius-all: $radius;
+$border-radius-top: $radius $radius 0 0;
+$border-radius-bottom: 0 0 $radius $radius;
+$border-radius-left: $radius 0 0 $radius;
+$border-radius-right: 0 $radius $radius 0;
+
+
+// MEDIA QUERIES
+// == container-width-* + (padding: 0 $size-extra-small) - 1px
+$media-query-break-point-small: 343px;
+$media-query-break-point-medium: 663px;
+$media-query-break-point-large: 983px;
+$media-query-break-point-extra-large: 1303px;
