@@ -1,4 +1,4 @@
-ddenhartog.github.io
-====================
+Douglas Denhartog
+=================
 
-GitHub.io Home
+Douglas Denhartog
