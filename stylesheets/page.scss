@@ -25,14 +25,14 @@ body {
   width: 100%;
 }
 
-section {
+.parent {
   align-items: center;
   display: flex;
   height: 100%;
   justify-content: center;
 }
 
-div {
+.child {
   padding: 0 $size-extra-small;
   text-align: center;
   width: 20rem;
